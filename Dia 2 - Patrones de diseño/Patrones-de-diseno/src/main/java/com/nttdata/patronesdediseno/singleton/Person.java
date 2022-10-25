@@ -1,5 +1,10 @@
 package com.nttdata.patronesdediseno.singleton;
 
+/**
+ * 
+ * @author Óscar Bayo Requena
+ *
+ */
 public class Person {
 	
 	private String name;

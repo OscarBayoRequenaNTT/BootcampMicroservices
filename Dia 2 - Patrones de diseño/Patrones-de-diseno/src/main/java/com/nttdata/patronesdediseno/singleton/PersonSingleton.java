@@ -2,6 +2,11 @@ package com.nttdata.patronesdediseno.singleton;
 
 import org.springframework.boot.CommandLineRunner;
 
+/**
+ * 
+ * @author Óscar Bayo Requena
+ *
+ */
 public class PersonSingleton {
 
 	private static PersonSingleton instance;
