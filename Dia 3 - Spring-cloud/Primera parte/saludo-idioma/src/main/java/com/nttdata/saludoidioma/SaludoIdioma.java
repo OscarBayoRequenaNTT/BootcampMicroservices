@@ -1,19 +1,19 @@
-package com.nttdata.bootcamp.saludoidioma.domain;
+package com.nttdata.saludoidioma;
 
-public class Saludo {
+public class SaludoIdioma {
 	private String idioma;
-	
-	public Saludo(String idioma) {
+
+	public SaludoIdioma(String idioma) {
 		this.idioma = idioma;
 	}
-	
+
 	public String mensajeSaludo() {
 		String mensaje = "";
-		switch(idioma) {
+		switch (idioma) {
 		case "Castellano":
 			mensaje = "Bienvenido";
 			break;
-		case "Inglés":
+		case "Ingles":
 			mensaje = "Welcome";
 			break;
 		case "Italiano":
@@ -25,5 +25,4 @@ public class Saludo {
 		}
 		return mensaje;
 	}
-		
 }
